@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"target": "ES2017",
+		"module": "CommonJS",
+		"strict": true,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"sourceMap": true,
+		"noEmit": false,
+		"noEmitHelpers": false,
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"baseUrl": "./",
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"scripthost"
+		]
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.test.ts"
+	]
+}
